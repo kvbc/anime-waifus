@@ -22,4 +22,6 @@ nextConfig.images = {
     ],
 };
 
+nextConfig.output = "export";
+
 module.exports = nextConfig;
