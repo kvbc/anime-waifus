@@ -274,9 +274,7 @@ export default function Home() {
             </div>
             {imageUrl == ""
                 ? "Loading ..."
-                : imageUrl != null && (
-                      <Image src={imageUrl} alt="" width={1000} height={1000} />
-                  )}
+                : imageUrl != null && <img src={imageUrl} />}
         </main>
     );
 }
